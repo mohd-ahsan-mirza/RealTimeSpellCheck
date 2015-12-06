@@ -97,8 +97,10 @@ namespace RealTimeSpellingCheck
                                 // Style is simple so whole list is visible when displayed
                                 combo.DropDownStyle = ComboBoxStyle.Simple;
                                 //Enables the user to just type in the comboBox to select an item from it.
-                                combo.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                                /*  
+                                combo.AutoCompleteMode = AutoCompleteMode.Suggest;
                                 combo.AutoCompleteSource = AutoCompleteSource.ListItems;
+                                */
                                 //Background color and name 
                                 combo.BackColor = SystemColors.ControlLight;
                                 combo.Name = "replacementCombo";
